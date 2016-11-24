@@ -35,7 +35,12 @@ SVG_MIMETYPE = "image/svg"
 
 # constants for Exercise format
 PERSEUS = "perseus"
-PERSEUS_MIMETYPE = ".perseus"
+PERSEUS_MIMETYPE = "application/zip"
+
+# constants for HTML5 zip format
+HTML5 = "html5"
+HTML5_MIMETYPE = "application/zip"
+
 
 choices = (
     (MP4, _("mp4")),
@@ -55,4 +60,5 @@ choices = (
     (SVG, _("svg")),
 
     (PERSEUS, _("perseus")),
+    (HTML5, _("html5")),
 )
